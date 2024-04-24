@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>OneDrive 直链转换工具</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="button"],
+        .copy-button,
+        #copy-all-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .result {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .error {
+            color: #f00;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>OneDrive 直链转换工具</h1>
+    <form>
+        <label for="urls">请输入 OneDrive 单文件分享链接（每行一个）：</label><br>
+      
+    <textarea id="urls" rows="5" cols="50" required></textarea><br>
+        <input type="button" value="转换" onclick="convertAndCopy()">
+    </form>
+    <script>
+  // 在页面加载时设置输入框的提示文本
+  window.onload = function () {
+    var textarea = document.getElementById("urls");
+    textarea.placeholder = "支持格式：\n 个人版 onedrive： https://1drv.ms/i/s!AnDZHOpvo15********5Wo\n 企业版 onedrive： https://jkwl-my.sharepoint.com/:i:/g/personal/admin_***_com/EcqpkSG0KsFFgQ******KhgBICI_se3pMm***MPQ-0Q?e=kxarnf";
+  };
+
+  // 其他代码...
+</script>
+    <div id="results"></div>
+    <button id="copy-all-button" onclick="copyAllLinks()">复制全部</button>
+
+    <script>
+        function copyText(elementId) {
+            var element = document.getElementById(elementId);
+            var range = document.createRange();
+            range.selectNode(element);
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            document.execCommand("copy");
+            window.getSelection().removeAllRanges();
+        }
+
+        function copyAllLinks() {
+            var allLinks = document.querySelectorAll('.result span');
+            var allLinksText = [];
+
+            allLinks.forEach(function (link) {
+                allLinksText.push(link.textContent);
+            });
+
+            var allLinksTextString = allLinksText.join('\n');
+
+            var tempTextarea = document.createElement('textarea');
+            tempTextarea.value = allLinksTextString;
+            document.body.appendChild(tempTextarea);
+            tempTextarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextarea);
+
+            alert('已复制全部链接到剪贴板！');
+        }
+
+        function convertAndCopy() {
+            var inputUrls = document.getElementById("urls").value;
+            var urlList = inputUrls.split("\n");
+            var resultDiv = document.getElementById("results");
+            resultDiv.innerHTML = "";
+
+            var convertedLinks = []; // 用于存储转换后的链接
+
+            urlList.forEach(function (url, index) {
+                url = url.trim();
+if (url !== "") {
+    try {
+        var convertedLink = judgeLink(url);
+        var resultElement = document.createElement("div");
+        resultElement.className = "result";
+        resultElement.innerHTML = '<p><strong>原始链接：</strong><br>' + url + '</p>' +
+            '<p><strong>转换后链接：</strong><br><span id="result-link-' + index + '">' + convertedLink +
+            '</span> <button class="copy-button" onclick="copyText(\'result-link-' + index + '\')">复制</button></p>';
+        resultDiv.appendChild(resultElement);
+
+        convertedLinks.push(convertedLink); // 添加到转换后的链接数组
+    } catch (e) {
+        var errorElement = document.createElement("p");
+        errorElement.className = "error";
+        errorElement.textContent = "请检查链接是否正确？";
+        resultDiv.appendChild(errorElement);
+    }
+}
+
+            });
+
+            // 自动复制转换后的链接
+            if (convertedLinks.length > 0) {
+                var convertedLinksText = convertedLinks.join('\n');
+
+                var tempTextarea = document.createElement('textarea');
+                tempTextarea.value = convertedLinksText;
+                document.body.appendChild(tempTextarea);
+                tempTextarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempTextarea);
+
+                alert('已自动复制全部转换后链接到剪贴板！');
+            }
+        }
+
+function judgeLink(url) {
+    if (url.startsWith("https://1drv.ms/")) {
+        // 如果是 https://1drv.ms/ 链接，则加上 https://onw.cc/1drv.ms.php?url=
+        return "https://onw.cc/1drv.ms.php?url=" + url;
+    }
+
+    var reg1 = /https:\/\/.+sharepoint\.com/;
+    var reg2 = /personal\/(\w+?)\//;
+    var reg3 = /.*\/(\S+)/;
+    var reg4 = /com\/:(\w):/;
+
+    var matches1 = url.match(reg1);
+    var matches2 = url.match(reg2);
+    var matches3 = url.match(reg3);
+
+    var p1 = matches1[0];
+    var p2 = matches2[1];
+    var p3 = matches3[1];
+
+    if (p3.includes('?')) {
+        p3 = p3.split('?')[0];
+    }
+
+    var matches4 = url.match(reg4);
+    if (matches4[1] === 'f') {
+        return "抱歉，你所输入链接分享的是文件夹，直链生成仅对单文件有效。";
+    }
+
+    return p1 + '/personal/' + p2 + '/_layouts/52/download.aspx?share=' + p3;
+}
+
+    </script>
+</body>
+
+</html>
