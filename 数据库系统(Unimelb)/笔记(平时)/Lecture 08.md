@@ -355,6 +355,8 @@ Create, Read, Update, Delete commands (CRUD Comments)
 > > **1️⃣**The condition is inferred, doesn't require an explicit condition to be stated
 > >
 > > **2️⃣**Natural joins are contingent on (依赖于) the exact matching (准确匹配) of attribute
+> > 
+> > **Natural Join** 自动基于两个表中所有具有相同名称的列来连接表。它不需要显式指定连接条件
 > >
 > > <img src="https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/image-20240401231354398.png" alt="image-20240401231354398" style="zoom:60%;" /> 
 > >
@@ -370,6 +372,7 @@ Create, Read, Update, Delete commands (CRUD Comments)
 > >
 > > 1. Include every record from the left table, 
 > > 2. if there's no matching record in the right table, the result will display NULL
+> > 
 > >
 > > **2️⃣**Left outer join: The Akin without account will display as NULL
 > >
