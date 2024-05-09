@@ -1,3 +1,7 @@
+# OS大题
+
+**==笔记源文件：[Markdown](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/OS%E5%A4%8D%E4%B9%A0_%E5%A4%A7%E9%A2%98%E7%AF%87.md)，[长图](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/OS%E5%A4%8D%E4%B9%A0_%E5%A4%A7%E9%A2%98%E7%AF%87.png)，[PDF](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/OS%E5%A4%8D%E4%B9%A0_%E5%A4%A7%E9%A2%98%E7%AF%87.pdf)，[HTML](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/OS%E5%A4%8D%E4%B9%A0_%E5%A4%A7%E9%A2%98%E7%AF%87.html)==**
+
 # 0. 判断实时系统可调度
 
 > <img src="https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/image-20231114141228848.png" alt="image-20231114141228848" style="zoom:45%;" /> 

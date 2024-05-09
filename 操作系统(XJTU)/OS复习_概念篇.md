@@ -1,10 +1,12 @@
 # 记住-<font color='cornflowerblue'>考过</font>-<font color='orange'>常考</font>-<font color='red'>必考</font>-<mark>重点</mark>
 
+**==笔记源文件：[Markdown](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/OS%E5%A4%8D%E4%B9%A0_%E6%A6%82%E5%BF%B5%E7%AF%87.md)，[长图](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/OS%E5%A4%8D%E4%B9%A0_%E6%A6%82%E5%BF%B5%E7%AF%87.png)，[PDF](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/OS%E5%A4%8D%E4%B9%A0_%E6%A6%82%E5%BF%B5%E7%AF%87.pdf)，[HTML](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/OS%E5%A4%8D%E4%B9%A0_%E6%A6%82%E5%BF%B5%E7%AF%87.html)==**
+
 # 1. 操作系统基本概念
 
 > ## 1.1. OS的特性
 >
-> > **1️⃣**<font color='red'>**最基本的是</font>**：<mark>并发性，共享性(资源的互斥使用以及同时使用)</mark>，这两点基于多道程序技术实现
+> > **1️⃣**<font color='red'>**最基本的是**</font>：<mark>并发性，共享性(资源的互斥使用以及同时使用)</mark>，这两点基于多道程序技术实现
 > >
 > > **2️⃣**虚拟性：一个物理实体映射为多个逻辑实体
 > >
