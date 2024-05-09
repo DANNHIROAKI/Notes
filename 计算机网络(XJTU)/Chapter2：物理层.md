@@ -1,5 +1,7 @@
 # CHAPTER 2：物理层
 
+**==笔记源文件：[Markdown](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter2.md)，[长图](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter2.png)，[PDF](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter2.pdf)，[HTML](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter2.html)==**
+
 物理层定义了比特在信道上发送时的电气/时序接口
 
 # 1. 通信基础

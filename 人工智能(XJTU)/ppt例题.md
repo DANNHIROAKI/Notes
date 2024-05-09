@@ -1,3 +1,7 @@
+# 例题集
+
+**==笔记源文件：[Markdown](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/ppt.md)，[长图](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/ppt.png)，[PDF](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/ppt.pdf)，[HTML](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/ppt.html)==**
+
 # 2. 知识工程
 
 > ## 2.1. 产生式系统求解问题的步骤

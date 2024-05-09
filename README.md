@@ -9,11 +9,13 @@
 
 # 1. 写在前面
 
-> **1️⃣**[关于作者](https://orcid.org/0000-0002-2082-5363)
+> **1️⃣**关于[作者](https://orcid.org/0000-0002-2082-5363)
 >
-> **2️⃣**文档中的视频和图片都源自[Github图床](https://github.com/DANNHIROAKI/New-Picture-Bed)，还有[sm.ms](https://sm.ms/)图床，为了不影响阅读体验最好挂个梯子
+> **2️⃣**文档中的视频和图片都源自[Github图床](https://github.com/DANNHIROAKI/New-Picture-Bed)，还有[sm.ms](https://sm.ms/)图床(最好挂个梯子)
 >
-> **3️⃣**想要资料源码的，都放在[我Github](https://github.com/DANNHIROAKI/XJTU-CS-Courses)里了。不过那个我已经不维护了，只会在Obsidian里更新和更正
+> **3️⃣**有关[其他资料](https://github.com/DANNHIROAKI/XJTU-CS-Courses)
+>
+> **4️⃣**Github备份[仓库](https://github.com/DANNHIROAKI/Notes)
 
 # 2. 目录
 
@@ -103,9 +105,9 @@
 > >
 > > #### [[3. 细胞结构的功能]]
 > >
-> > #### [[4. 胞的遗传物质及其维持]]
+> > #### [[4. 细胞的遗传物质及其维持]]
 > >
-> > #### [[5. 胞遗传信息的表达及调控]]
+> > #### [[5. 细胞遗传信息的表达及调控]]
 > >
 > > #### [[6. 细胞的通讯与信号转导]]
 > >

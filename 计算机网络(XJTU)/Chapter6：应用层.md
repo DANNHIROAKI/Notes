@@ -1,5 +1,7 @@
 # 应用层
 
+**==笔记源文件：[Markdown](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter6.md)，[长图](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter6.png)，[PDF](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter6.pdf)，[HTML](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter6.html)==**
+
 **1️⃣**协议模式：传输层服务模式，C-S模式，P2P模式
 
 **2️⃣**协议：HTTP，FTP，SMTP/pop3/imap，DNS

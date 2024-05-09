@@ -1,5 +1,7 @@
 # Chapter 3+：介质访问控制子层
 
+**==笔记源文件：[Markdown](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter3.2.md)，[长图](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter3.2.png)，[PDF](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter3.2.pdf)，[HTML](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter3.2.html)==**
+
 # 1. 三种链路
 
 > **1️⃣**点对点：单个发送端+单个接收端+二者间的链路，有PPP/HDLC协议

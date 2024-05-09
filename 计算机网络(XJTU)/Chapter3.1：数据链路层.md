@@ -2,6 +2,8 @@
 
 # 逻辑链路控制子层
 
+**==笔记源文件：[Markdown](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter3.1.md)，[长图](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter3.1.png)，[PDF](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter3.1.pdf)，[HTML](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter3.1.html)==**
+
 # 1. 数据链路概述
 
 > ## 1.1. 基本概念

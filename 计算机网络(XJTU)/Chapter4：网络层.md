@@ -1,5 +1,7 @@
 # 网络层
 
+**==笔记源文件：[Markdown](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter4.md)，[长图](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter4.png)，[PDF](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter4.pdf)，[HTML](https://raw.githubusercontent.com/DANNHIROAKI/New-Picture-Bed/main/img/Chapter4.html)==**
+
 每个主机/路由器都有网络层部分，网络层==实现主机$\xleftrightarrow{}$主机的通讯==，最复杂
 
 注意：笔记中所说数据报=独立的/无连接的网络通信单元
