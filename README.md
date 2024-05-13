@@ -1,3 +1,6 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/DANNHIROAKI/Notes) 
+
+
 # 0. 先来看一段Chiikawa
 
 > <video width="640" height="380" controls>
@@ -16,6 +19,9 @@
 > **3️⃣**有关[其他资料](https://github.com/DANNHIROAKI/XJTU-CS-Courses)
 >
 > **4️⃣**Github备份[仓库](https://github.com/DANNHIROAKI/Notes)
+>
+> **5️⃣**很多地方我用了非常复杂的Latex公式，打开瞬间需要大量的CSS渲染，卡顿是正常现象
+
 
 # 2. 目录
 

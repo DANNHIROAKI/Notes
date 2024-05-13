@@ -13,7 +13,6 @@ def replace_text_in_file(file_path):
         ":seven:": "**7️⃣**",
         ":eight:": "**8️⃣**",
         ":nine:": "**9️⃣**",
-        ":warning:": "⚠️"
     }
 
     # Read the file content
