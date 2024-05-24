@@ -105,7 +105,7 @@
 > >
 > > #### [[ppt例题]]
 >
-> ## [生命科学基础Ⅰ](https://github.com/DANNHIROAKI/XJTU-BIOL200913-BIO)
+> ## [生命科学基础Ⅰ(XJTU)](https://github.com/DANNHIROAKI/XJTU-BIOL200913-BIO)
 >
 > > #### [[1. 细胞的物质基础]]
 > >
@@ -120,3 +120,13 @@
 > > #### [[6. 细胞的通讯与信号转导]]
 > >
 > > #### [[7. 细胞的增殖分化凋亡]]
+>
+> ## [数据库系统(Unimelb)](https://github.com/DANNHIROAKI/Unimelb-CS-Courses/tree/master/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9FCOMP20008)
+>
+> > #### [[1. ER Modelling]]
+> >
+> > #### [[2. SQL Query]]
+> >
+> > #### [[3. Query Optimization]]
+> >
+> > #### [[4. Rest of DB Course]]
