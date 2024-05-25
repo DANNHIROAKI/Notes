@@ -1,5 +1,5 @@
 
-![GitHub repo size](https://img.shields.io/github/repo-size/DANNHIROAKI/Notes)
+![GitHub repo size](https://img.shields.io/github/repo-size/DANNHIROAKI/Notes) 
 
 
 
@@ -14,7 +14,7 @@
 
 # 1. 写在前面
 
-> **1️⃣**关于[作者](https://orcid.org/0000-0002-2082-5363)
+> **1️⃣**关于[作者](https://orcid.org/0000-0002-2082-5363)，[CV](https://dept-eappsrv.cse.cuhk.edu.hk/pgas2025/wp-content/uploads/ultimatemember/7309/cv-CV_2_Pages_EN.pdf)
 >
 > **2️⃣**文档中的视频和图片都源自[Github图床](https://github.com/DANNHIROAKI/New-Picture-Bed)，还有[sm.ms](https://sm.ms/)图床(最好挂个梯子)
 >
