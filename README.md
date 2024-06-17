@@ -2,7 +2,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DANNHIROAKI/Notes) 
 
 
-
 # 0. 先来看一段Chiikawa
 
 > <video width="640" height="380" controls>
